@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        CSS CheatSheet
+    </title>
+    <link rel="stylesheet" href="/Resources/Styles/Stylesheet.css">
+</head>
+<body>
+    <div class="centered">
+        <header>
+            <h1>
+                css selectors
+            </h1>
+        </header>
+
+        <main>
+            <section class="selector">
+                <h2>
+                    What is a Selector?
+                </h2>
+                <p>A CSS selector is the first part of a CSS Rule. It is a
+                    pattern
+                    of elements and other terms that tell the browser which HTML
+                    elements should be selected to have the CSS property values
+                    inside the rule applied to them. The element or elements
+                    which
+                    are selected by the selector are referred to as the subject
+                    of
+                    the selector.</p>
+                <img src="/Resources/selector.png" alt="element selector">
+                <p>
+                    In other articles you may have met some different selectors,
+                    and
+                    learned that there are selectors that target the document in
+                    different ways — for example by selecting an element such as
+                    <span>h1</span>,
+                    or a class such as <span>.special</span>.
+                </p>
+            </section>
+            <br>
+            <table>
+                <thead>
+                    <tr class="table-header">
+                        <th colspan="3" scope="row">
+                            Type, class, and ID selectors
+                        </th>
+                    </tr>
+                    <tr>
+                        <th scope="col">
+                            Types
+                        </th>
+                        <th scope="col">
+                            Syntax
+                        </th>
+                        <th scope="col">
+                            Description
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Type
+                        </td>
+                        <td>
+                            <span>h1{}</span>
+                        </td>
+                        <td>
+                            Type selectors target an HTML element such as an
+                            &lt;h1&gt;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Class
+                        </td>
+                        <td>
+                            <span>.class{}</span>
+                        </td>
+                        <td>
+                            Class selectors target an element that has a
+                            specific value for its class attribute
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Id
+                        </td>
+                        <td>
+                            <span>#id{}</span>
+                        </td>
+                        <td>
+                            ID selectors target an element that has a specific
+                            value for its id attribute
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <thead>
+                    <tr class="table-header">
+                        <th colspan="3">
+                            Attribute, Pseudo and Combinator selectors
+                        </th>
+                        <tr>
+                            <th scope="col">
+                                Types
+                            </th>
+                            <th scope="col">
+                                Syntax
+                            </th>
+                            <th scope="col">
+                                Description
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Attribute
+                            </td>
+                            <td>
+                                <span>a[href="value"]{}</span>
+                            </td>
+                            <td>
+                                Selection based on the presence of an attribute
+                                with a particular value
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Pseudo
+                            </td>
+                            <td>
+                                <span>a:hover{}</span>
+                            </td>
+                            <td>
+                                This group of selectors includes pseudo-classes,
+                                which style certain states of an element
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Combinators
+                            </td>
+                            <td>
+                                <span>article > p {}</span>
+                            </td>
+                            <td>
+                                This group of selectors combines other selectors in order to
+                                target elements within our documents. The
+                                following, for example, selects paragraphs that
+                                are direct children of <span>&lt;article&gt;</span> elements using
+                                    the child combinator <span>(&gt;)</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </tr>
+                </thead>
+            </table>
+        </main>
+    </div>
+</body>

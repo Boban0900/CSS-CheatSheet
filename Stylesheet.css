@@ -1,0 +1,74 @@
+@font-face{
+    font-family: "span";
+    src: url(../SpaceMono-Regular.ttf) format("truetypefont");
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.centered {
+    width: 940px;
+    margin: 0 auto;
+    background-image: url(/Resources/background.jpg);
+    background-size: cover;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+/*======================
+    header
+=======================*/
+header {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 0;
+    text-transform: uppercase;
+    color: rgb(95,101,104);
+    font-weight: bold;
+    font-style: italic;
+    padding: 0.5rem;
+}
+
+/*=======================
+    Main
+=======================*/
+main span{
+    background-color:rgb(140,140,226);
+    font-family: monospace, 'Courier New', Courier;
+}
+.selector h2{
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2.5rem;
+    color: rgb(95,101,104);
+}
+/*======================
+    Table
+======================*/
+
+table{
+    width: 100%;
+    border: solid rgb(140,140,226) 2px;
+    margin: 2rem 0;
+}
+.table-header{
+    background-color: rgb(140,140,226);
+}
+thead{
+    font-size: 1.4rem;
+}
+td{
+    font-size: 1.2rem;
+    text-align: center;
+    border-top: solid rgb(140,140,226) 2px;
+}
+
